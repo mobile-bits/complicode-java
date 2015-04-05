@@ -40,7 +40,7 @@ Agregar el repositorio Jitpack en el  archivo build.gradle
 Agregar la dependencia a la libreria en el  archivo build.gradle
 
 ```java
-    compile 'com.github.mobilebits-bolivia:factura-codigo-control-java:facturacodigocontrol:1.01-SNAPSHOT'
+    compile 'com.github.mobilebits-bolivia.factura-codigo-control-java:facturacodigocontrol:1.01-SNAPSHOT'
 ```
 
 ## Forma de Uso:
