@@ -6,17 +6,17 @@
 
     <parent>
         <groupId>com.mobilebits</groupId>
-        <artifactId>factura-codigo-control-java</artifactId>
+        <artifactId>complicode-java</artifactId>
         <version>1.01-SNAPSHOT</version>
     </parent>
 
-    <artifactId>facturacodigocontrol-samples</artifactId>
+    <artifactId>complicode-samples</artifactId>
     <version>1.01-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
             <groupId>com.mobilebits</groupId>
-            <artifactId>facturacodigocontrol</artifactId>
+            <artifactId>complicode</artifactId>
             <version>1.01-SNAPSHOT</version>
         </dependency>
     </dependencies>

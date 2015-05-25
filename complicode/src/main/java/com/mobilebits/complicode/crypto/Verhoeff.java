@@ -1,4 +1,4 @@
-package com.mobilebits.facturacodigocontrol.crypto;
+package com.mobilebits.complicode.crypto;
 
 /**
  * Created by iluretar on 02-Apr-15.

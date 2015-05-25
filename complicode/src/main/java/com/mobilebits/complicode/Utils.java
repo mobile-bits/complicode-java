@@ -1,4 +1,4 @@
-package com.mobilebits.facturacodigocontrol;
+package com.mobilebits.complicode;
 
 /**
  * Created by iluretar on 03-Apr-15.

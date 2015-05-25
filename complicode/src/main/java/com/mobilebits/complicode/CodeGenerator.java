@@ -1,12 +1,12 @@
-package com.mobilebits.facturacodigocontrol;
+package com.mobilebits.complicode;
 
 /**
  * Created by iluretar on 03-Apr-15.
  */
 
-import com.mobilebits.facturacodigocontrol.crypto.*;
+import com.mobilebits.complicode.crypto.*;
 
-import static com.mobilebits.facturacodigocontrol.Utils.*;
+import static com.mobilebits.complicode.Utils.*;
 
 
 public class CodeGenerator {

@@ -1,7 +1,7 @@
 /**
  * Created by iluretar on 02-Apr-15.
  */
-import com.mobilebits.facturacodigocontrol.crypto.*;
+import com.mobilebits.complicode.crypto.*;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

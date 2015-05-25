@@ -6,11 +6,11 @@
 
     <parent>
         <groupId>com.mobilebits</groupId>
-        <artifactId>factura-codigo-control-java</artifactId>
+        <artifactId>complicode-java</artifactId>
         <version>1.01-SNAPSHOT</version>
     </parent>
 
-    <artifactId>facturacodigocontrol</artifactId>
+    <artifactId>complicode</artifactId>
     <version>1.01-SNAPSHOT</version>
 
 </project>

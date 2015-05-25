@@ -1,4 +1,4 @@
-package com.mobilebits.facturacodigocontrol;
+package com.mobilebits.complicode;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -8,7 +8,7 @@ import java.util.Date;
  */
 
 
-public class FacturaCodigoControl {
+public class CompliCode {
     public static void main(String[] args){
 
     }

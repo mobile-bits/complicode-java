@@ -2,7 +2,7 @@
  * Created by iluretar on 04-Apr-15.
  */
 
-import com.mobilebits.facturacodigocontrol.FacturaCodigoControl;
+import com.mobilebits.complicode.CompliCode;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
@@ -25,7 +25,7 @@ public class CodeTest {
             e.printStackTrace();
         }
 
-        String code = new FacturaCodigoControl.Builder()
+        String code = new CompliCode.Builder()
                 .authorization("29040011007")
                 .nit("4189179011")
                 .number(1503)
@@ -47,7 +47,7 @@ public class CodeTest {
             e.printStackTrace();
         }
 
-        String code = new FacturaCodigoControl.Builder()
+        String code = new CompliCode.Builder()
                 .authorization("1904008691195")
                 .number(978256)
                 .date(date)
@@ -69,7 +69,7 @@ public class CodeTest {
             e.printStackTrace();
         }
 
-        codeUp = new FacturaCodigoControl.Builder()
+        codeUp = new CompliCode.Builder()
                 .authorization("1904008691195")
                 .nit("0")
                 .number(978256)
@@ -78,7 +78,7 @@ public class CodeTest {
                 .key("pPgiFS%)v}@N4W3aQqqXCEHVS2[aDw_n%3)pFyU%bEB9)YXt%xNBub4@PZ4S9)ct")
                 .build();
 
-        codeDown = new FacturaCodigoControl.Builder()
+        codeDown = new CompliCode.Builder()
                 .authorization("1904008691195")
                 .nit("0")
                 .number(978256)
@@ -87,7 +87,7 @@ public class CodeTest {
                 .key("pPgiFS%)v}@N4W3aQqqXCEHVS2[aDw_n%3)pFyU%bEB9)YXt%xNBub4@PZ4S9)ct")
                 .build();
 
-        codeRoundedUp = new FacturaCodigoControl.Builder()
+        codeRoundedUp = new CompliCode.Builder()
                 .authorization("1904008691195")
                 .nit("0")
                 .number(978256)
@@ -96,7 +96,7 @@ public class CodeTest {
                 .key("pPgiFS%)v}@N4W3aQqqXCEHVS2[aDw_n%3)pFyU%bEB9)YXt%xNBub4@PZ4S9)ct")
                 .build();
 
-        codeRoundedDown = new FacturaCodigoControl.Builder()
+        codeRoundedDown = new CompliCode.Builder()
                 .authorization("1904008691195")
                 .nit("0")
                 .number(978256)
@@ -123,7 +123,7 @@ public class CodeTest {
             e.printStackTrace();
         }
 
-         new FacturaCodigoControl.Builder()
+         new CompliCode.Builder()
                 //.authorization("1904008691195")
                 .number(978256)
                 .date(date)

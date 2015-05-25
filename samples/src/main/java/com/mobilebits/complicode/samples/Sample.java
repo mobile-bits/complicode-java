@@ -1,10 +1,10 @@
-package com.mobilebits.facturacodigocontrol.samples;
+package com.mobilebits.complicode.samples;
 
 /**
  * Created by iluretar on 03-Apr-15.
  */
 
-import com.mobilebits.facturacodigocontrol.FacturaCodigoControl;
+import com.mobilebits.complicode.CompliCode;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -23,7 +23,7 @@ public class Sample {
             e.printStackTrace();
         }
 
-        String code = new FacturaCodigoControl.Builder()
+        String code = new CompliCode.Builder()
                 .authorization("29040011007")
                 .nit("4189179011")
                 .number(1503)
