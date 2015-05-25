@@ -7,17 +7,17 @@
     <parent>
         <groupId>com.mobilebits</groupId>
         <artifactId>complicode-java</artifactId>
-        <version>1.01-SNAPSHOT</version>
+        <version>1.01</version>
     </parent>
 
     <artifactId>complicode-samples</artifactId>
-    <version>1.01-SNAPSHOT</version>
+    <version>1.01</version>
 
     <dependencies>
         <dependency>
             <groupId>com.mobilebits</groupId>
             <artifactId>complicode</artifactId>
-            <version>1.01-SNAPSHOT</version>
+            <version>1.01</version>
         </dependency>
     </dependencies>
 </project>

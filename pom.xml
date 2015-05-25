@@ -6,7 +6,7 @@
 
     <groupId>com.mobilebits</groupId>
     <artifactId>complicode-java</artifactId>
-    <version>1.01-SNAPSHOT</version>
+    <version>1.01</version>
     <packaging>pom</packaging>
 
     <modules>
