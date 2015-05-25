@@ -1,4 +1,4 @@
-# factura-codigo-control-java
+# complicode-java
 Generador de codigo de control para facturas dentro del Servicio Nacional de Impuestos de Bolivia escrito en Java.
 
 ## Como Agregar al proyecto
@@ -19,9 +19,9 @@ Agregar la dependencia a la libreria en el  archivo pom.xml
 
 ```xml
     <dependency>
-	    <groupId>com.github.mobilebits-bolivia.factura-codigo-control-java</groupId>
-	    <artifactId>facturacodigocontrol</artifactId>
-	    <version>1.01-SNAPSHOT</version>
+	    <groupId>com.github.mobilebits-bolivia.complicode-java</groupId>
+	    <artifactId>complicode</artifactId>
+	    <version>1.01</version>
 	</dependency>
 ```
 
@@ -40,13 +40,13 @@ Agregar el repositorio Jitpack en el  archivo build.gradle
 Agregar la dependencia a la libreria en el  archivo build.gradle
 
 ```java
-    compile 'com.github.mobilebits-bolivia.factura-codigo-control-java:facturacodigocontrol:1.01-SNAPSHOT'
+    compile 'com.github.mobilebits-bolivia.complicode-java:complicode:1.01'
 ```
 
 ## Forma de Uso:
 
 ```java
-String code = new FacturaCodigoControl.Builder()
+String code = new CompliCode.Builder()
                 .authorization("29040011007")
                 .nit("4189179011")
                 .number(1503)
@@ -59,7 +59,7 @@ String code = new FacturaCodigoControl.Builder()
 Tambien se puede omitir el Nit si es que es 0
 
 ```java
-String code = new FacturaCodigoControl.Builder()
+String code = new CompliCode.Builder()
                 .authorization("29040011007")
                 .number(1503)
                 .date(new SimpleDateFormat("yyyyMMdd").parse("20070702"))
