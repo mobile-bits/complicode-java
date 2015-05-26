@@ -110,7 +110,7 @@ public class CodeGenerator {
 
     protected String generate(){
         stepOne();
-        return addDash(controlCode);
+        return controlCode.replaceAll("(.{2})(?!$)", "$1-");
     }
 
 

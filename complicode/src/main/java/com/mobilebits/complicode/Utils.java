@@ -51,15 +51,4 @@ public class Utils {
 
         return result;
     }
-
-    static public String addDash(String string){
-        StringBuilder buffer = new StringBuilder(string);
-        int stepping=2;
-        int dashes=0;
-        for(int i=0; i<= string.length()/stepping; i+=stepping){
-            string = buffer.insert(i+stepping+dashes, "-").toString();
-            dashes++;
-        }
-        return string;
-    }
 }
